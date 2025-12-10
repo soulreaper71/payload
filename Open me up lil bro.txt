@@ -1,0 +1,8 @@
+So here's the deal: 
+
+You will create a form which takes some user input and then passes it on to a function which will then display said input's result, alternatively you may store it in a excel sheet cuz why the frick not bro.
+
+
+The program in question is a grading system and you may also try csv files for all it is worth. 
+
+When you open chrome, press ctrl + shift + T to open up the previous window and resume the geeksforgeeks tutorial.
